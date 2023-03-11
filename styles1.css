@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+  text direction: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+*::selection {
+  background:  var(--green);
+  color: #fff;
+}
+html {
+  font-size: 78.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74% );
+  height: 100vh;
+}
+header .logo {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: -20px;
+}
+header .logo span {
+  color: lightblue;
+}
+.header-2 .navbar a {
+  margin-top: -5px;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  color: black;
+  text-decoration: none;
+  margin-left: 1150px;
+}
+.header-2 .badge-notify {
+  position: relative;
+  font-family: sans-serif;
+  margin-top: -30px;
+  color: black;
+}
+.header-2 .glyphicon-shopping-cart {
+  position: relative;
+  margin-top: -110px;
+  color: black;
+
+}
+/*.badge-notify {
+background:
+position: relative;
+top: 40px;
+right: 40px;
+font-family: sans-serif;
+font-size: 2rem;
+margin-left: 5px;
+}
+.glyphicon-shopping-cart{
+  margin-top: -90px;
+  color: black;
+
+}*/
+.container i {
+  color: black;
+
+}
+.btn {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid white;
+}
+.btn-info {
+  background: #34495e;
+  padding: 10px 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.row {
+  color: white;
+  margin-top: 30px;
+}
+.btn-danger {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.hi-slide {
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 115px auto 0;
+}
+.hi-slide .hi-prev,
+.hi-slide .hi-next {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: all 0.7s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hi-slide .hi-prev:hover,
+.hi-slide .hi-next:hover {
+  opacity: 1;
+  background-color: white;
+}
+.hi-slide .hi-prev {
+  left: -70px;
+}
+.hi-slide .hi-prev::before {
+  content: '<';
+}
+.hi-slide .hi-next {
+  right: -70px;
+}
+.hi-slide .hi-next::before {
+  content: '>';
+}
+.hi-slide > ul {
+  list-style: none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 0;
+  padding: 0;
+}
+.hi-slide  ul  li {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 377px;
+  top: 147px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid white;
+  background-color: #333;
+  cursor: pointer;
+}
+.hi-slide  ul li img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}

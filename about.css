@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+html {
+  font-size: 78.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-left: -90px;
+
+}
+header .logo span {
+  color: lightblue;
+}
+.about-section {
+  background: url(home/making.jpg) no-repeat left;
+  background-size: 55%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
+}
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 70px;
+}
+.inner-container h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  color: gray;
+}
+.text {
+font-size: 13px;
+color: #545454;
+line-height: 30px;
+text-align: justify;
+margin-bottom: 40px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 20px;
+  color: lightgrey;
+}

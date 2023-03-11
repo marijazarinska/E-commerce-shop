@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(backforNEW.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+}
+.box p{
+ font-size: 20px;
+}
+ .box {
+    position: absolute;
+     width: 30%;
+     height: 40%;
+     background-image: linear-gradient(rgba(0, 0, 0,0.3), rgba(0, 0, 0, 0.3));
+     padding: 55px;
+     box-sizing: border-box;
+     margin-top: -5px;
+     margin-left: -130px;
+}
